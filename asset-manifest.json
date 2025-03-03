@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SSL-Self_Law/static/css/main.5fca6b24.css",
+    "main.js": "/SSL-Self_Law/static/js/main.0c6a5fd3.js",
+    "index.html": "/SSL-Self_Law/index.html",
+    "main.5fca6b24.css.map": "/SSL-Self_Law/static/css/main.5fca6b24.css.map",
+    "main.0c6a5fd3.js.map": "/SSL-Self_Law/static/js/main.0c6a5fd3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fca6b24.css",
+    "static/js/main.0c6a5fd3.js"
+  ]
+}
