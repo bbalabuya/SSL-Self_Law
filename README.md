@@ -1,11 +1,11 @@
-<p align="center">
-  <img src="./assets/logo.png">
-</p>
+<div align="center">
+  <img src="./public/assets/logo.png" width="300">
+</div>
 
 ## 1. 📌 프로젝트 개요
 
-> AI 챗봇 기반의 법률 상담 플랫폼
-> 사용자들이 일상 속 법적 고민을 누구에게도 드러내지 않고
+> AI 챗봇 기반의 법률 상담 플랫폼  
+> 사용자들이 일상 속 법적 고민을 누구에게도 드러내지 않고  
 > **편안하게 상담받을 수 있는 온라인 채팅 공간**을 제공하는 서비스
 
 ---
@@ -24,33 +24,44 @@
 
 ## 3. 💡 개발 배경
 
-일반인에게는 변호사와의 직접 상담이 **경제적·심리적 장벽**이 높은 경우가 많고,
+일반인에게는 변호사와의 직접 상담이 **경제적·심리적 장벽**이 높은 경우가 많고,  
 민감한 사안의 경우 주변 사람들에게 쉽게 이야기하기 어렵다는 문제가 있음.
-이러한 문제를 해결하기 위해
+
+이러한 문제를 해결하기 위해  
 **익명성과 접근성을 갖춘 AI 기반 법률 상담 서비스**를 기획하고 개발하게 됨.
 
 ---
 
-## 4.프로토타입
+## 4. 📷 프로토타입
+
+### Home
 
 <div align="center">
-  <img src="./assets/readmePicture/home.png">
+  <img src="./public/assets/readmePicture/home.png" width="800">
 </div>
 
-<div align="center">
-  <img src="./assets/readmePicture/login.png">
-</div>
+### Login
 
 <div align="center">
-  <img src="./assets/readmePicture/chat.png">
+  <img src="./public/assets/readmePicture/login.png" width="800">
 </div>
 
-<div align="center">
-  <img src="./assets/readmePicture/lawyerBoard.png">
-</div>
+### Chat
 
 <div align="center">
-  <img src="./assets/readmePicture/inquiry.png">
+  <img src="./public/assets/readmePicture/chat.png" width="800">
+</div>
+
+### Lawyer Board
+
+<div align="center">
+  <img src="./public/assets/readmePicture/lawyerBoard.png" width="800">
+</div>
+
+### Inquiry
+
+<div align="center">
+  <img src="./public/assets/readmePicture/inquiry.png" width="800">
 </div>
 
 ---
@@ -59,7 +70,8 @@
 
 - **Frontend**: JavaScript, React, AWS (EC2, CloudFront)
 - **Backend**: Spring Boot, MySQL
-- **AI 엔진**: Python 기반 텍스트 생성 모델*(도입을 시도했으나 라이브러리 및 환경 문제로 완전한 구현에는 실패)*
+- **AI 엔진**: Python 기반 텍스트 생성 모델  
+  *(도입을 시도했으나 라이브러리 및 환경 문제로 완전한 구현에는 실패)*
 
 ---
 
@@ -98,8 +110,7 @@
 
 ## 7. ✅ 구현 결과
 
-> AI 상담 기능은 라이브러리와 환경적 한계로 완전한 구현에는 이르지 못했지만
->
+> AI 상담 기능은 라이브러리와 환경적 한계로 완전한 구현에는 이르지 못했지만  
 > 주요 서비스 기능은 정상적으로 구현
 
 - 소셜 로그인 및 랜딩 페이지 구현
@@ -125,14 +136,10 @@
 - 메시지 UI에 **전환 효과 및 애니메이션 추가**
 - ChatGPT 스타일을 유지하면서 **UX 개선 및 디자인 완성도 향상**
 
----
-
 ### 🛠 기능 보완
 
 - 법률 검색 기능 **크롤링 안정성 개선**
 - 변호사 프로필 기능을 **사용자 페이지와 관리자 페이지로 역할 분리**
-
----
 
 ### 🎨 디자인 개선
 
