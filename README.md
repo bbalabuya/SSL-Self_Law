@@ -151,7 +151,9 @@
 ## 10. 🐛 발생했던 문제와 해결 경험
 
 - 로그인 이후 **리다이렉트가 정상적으로 이루어지지 않는 문제 발생**
-- OAuth 인증 흐름과 프론트엔드 상태 관리 로직을 수정하여 해결
+  - [🤔소셜 로그인 이후 redirect 문제](https://velog.io/@why_does_it_work/소셜-로그인-이후-redirect-문제)
+- style-component의 무리한 사용으로 인한 유지보수의 어려움
+  - [😱styled-component로 UI를 구현하는 당신,성능에 취약할 수 있습니다](https://velog.io/@why_does_it_work/styled-component를-남발하는-당신성능-문제에-취약하다) 
 
 ### 개선이 필요했던 부분
 
